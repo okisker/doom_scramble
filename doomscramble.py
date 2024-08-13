@@ -33,7 +33,7 @@ def process_groups(input_str):
     return processed_groups
 
 # Example usage:
-input_str = "12345678 87654321"
+input_str = input("Paste binary as 8 numbers divided by spaces: ")
 try:
     result = process_groups(input_str)
     for group in result:
