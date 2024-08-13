@@ -5,12 +5,12 @@ Use python 3 to run file: <br />
 
 Background information gathered by using the [wayback machine](https://web.archive.org/web/20221114212355/http://justsolve.archiveteam.org/wiki/Doom_cheat_code_encryption) in [this PDF](doom_cheat_code_encryption.pdf)
 
-Doom cheat code encryption
+#Doom cheat code encryption
 Doom cheat code encryption was used in the original 1993 version of Doom to make the cheat codes a little harder for hackers to find, so they didn't appear in the raw binary code as plain ASCII characters. (Of course, the hackers found them anyway.) Twitter user @Foone described it in a 2019 thread.
 
 This low-grade encryption is done by shifting the bits of 8-bit numbers (which can represent single ASCII characters) which reverses the order of the bits except for those representing 4 and 32. The shifted values are stored in a lookup table in the Doom program.
 
-Details
+#Details
 As described by @Foone, who has allowed these descriptions to be released as CC0 so they can be used here:
 
 So Doom (1993) has a neat bit of encryption in it. It's not very strong encryption, but it's still encryption. 
